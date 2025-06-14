@@ -1,4 +1,64 @@
+
+.logo{
+  text-align: center;
+  background-color: #121c50;
+}
+
+.sidebar{
+  background-color: #fefe00;
+}
+
+.sidebar h3{
+  color: #0b00fe;
+}
+
+.content{
+  background-color: #01fffe;
+}
+
+.content img{
+  width: 100%;
+}
+
+.content p{
+  color: white;
+}
+
+
+.content p:nth-of-type(1){
+  background-color: black;
+}
+
+.content  p:nth-of-type(2){
+  background-color: green;
+
+}
+
+.content li:nth-of-type(even){
+  color: red;
+}
+
+.content a {
+  color: red;
+}
+
+
+
 main,
 footer {
   display: flex;
 }
+
+footer  div:first-child{
+  background-color: pink;
+}
+
+footer div:nth-child(2){
+  background-color: red;
+  color: white;
+}
+
+footer div:last-child{
+  background-color: #808080;
+}
+
